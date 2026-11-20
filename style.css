@@ -138,3 +138,8 @@ footer{text-align:center;padding:36px 20px;color:var(--muted)}
   .cover-stage{order:1}
   .cover-stage img{width:min(320px,86vw)}
 }
+
+/* Compact, accessible RankThisSite badge in the shared footer. */
+.rankthissite-link{display:inline-block;width:min(260px,100%);border-radius:12px;line-height:0}
+.rankthissite-link img{display:block;width:100%;height:auto}
+.rankthissite-link:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
